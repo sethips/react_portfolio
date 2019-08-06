@@ -8,7 +8,7 @@ import './homepage.styles.scss';
 const HomePage = () => (
   <div>
     <Header />
-    <div className='test'>Body</div>
+    <div>Body of work</div>
     <Footer />
   </div>
 );

@@ -5,11 +5,13 @@ import './footer.style.scss';
 
 const Footer = () => (
   <div className='footer_container'>
-    <span className='nut' />
     <div className='footer'>
       <img src={logoFooter} className='footer__logo' alt='footer-logo' />
+      <span>San Jose, Costa Rica</span>
       <span>virtual.employee@gmail.com</span>
-      <span>San Jose, Costa Rica></span>
+      <span>Copyright © 2019 Luigi Castro</span>
+      <span>All Rights Reserved</span>
+      <span className='nut' />
     </div>
   </div>
 );

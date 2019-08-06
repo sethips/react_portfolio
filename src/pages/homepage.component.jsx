@@ -6,10 +6,10 @@ import Footer from '../components/footer/footer.component';
 import './homepage.styles.scss';
 
 const HomePage = () => (
-  <div>
-    <Header />
-    <div>Body of work</div>
-    <Footer />
+  <div className='page'>
+    <Header className='page__header' />
+    <div className='page__body'>Body of work</div>
+    <Footer className='page__footer' />
   </div>
 );
 

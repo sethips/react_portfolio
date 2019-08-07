@@ -21,7 +21,7 @@ class ProjectsBanner extends React.Component {
         <div className='prj-index'>
           <ul>
             <li>
-              <img src='${this.state.url}' alt='heroimage' />
+              <img src={this.state.url} alt='heroimage' />
               <h1>{this.state.title}</h1>
               <p>{this.state.text}</p>
             </li>

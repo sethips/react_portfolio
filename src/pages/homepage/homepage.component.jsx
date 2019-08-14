@@ -10,6 +10,7 @@ const HomePage = () => (
   <div className='page'>
     <Header className='page__header' />
     <div className='page__body'>
+
       <About />
     </div>
     <Footer className='page__footer' />

@@ -15,26 +15,42 @@ class HomePage extends React.Component {
         {
           image: '/project1.jpg',
           title: 'Monsters Rolodex',
-          text: 'Based on an online course, to practice React. ',
-          topics: 
-          ['Fetching Data from API Dynamic content',
-           'filtering, mapping and manipulating data',
-           'Deep dive in component structure']
+          text: 'Small web project which pulls dynamic content and displays it to the user. Additionally provides an interface to search through the content.',
+          topics: [
+           'Fetching API Data',
+           'Filtering, Mapping and Manipulating Json Data',
+           'Deep dive into class/function based components structure'
+          ]
         },
         {
           image: '',
-          title: 'Card 2',
-          text: 'card2 text goes here'
+          title: 'E-Commerce Site',
+          text: 'Deep Dive into working with react and several technologies for a large scale project',
+          topics: [
+            'Full site structure',
+            'Firebase'
+          ]
         },
         {
           image: '',
-          title: 'Card 3',
-          text: 'card3 text goes here'
+          title: 'Javascript Calculator',
+          text: 'A Javascript calculator with scss and html.',
+          topics: [
+            'Javascript fundamentals',
+            'manipulating javascript datasets and css clases'
+          ]
         },
         {
           image: '',
-          title: 'Card 4',
-          text: 'card4 text goes here'
+          title: 'A simpler portfolio site Luigi Castro Homepage',
+          text: 'A simple html, scss website created to explore advanced scss. With this website I underwent the full process of wireframing, designing in Affinity Designer and then coding with pixel perfect precision. I also wanted to explore the functonality of parcel.js and practiced other web bundling methodologies (Gulp,Web Pack). After some experimentation went back to Parcel',
+          topics: [
+            'Html',
+            'css, scss, BEM',
+            'Parcel.js, Gulp.js'
+
+
+          ]
         }
       ]
     };

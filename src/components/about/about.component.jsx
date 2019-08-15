@@ -9,11 +9,13 @@ const About = () => (
     <div className='about__content'>
       <img src={Luigi} alt='Luigi Castro' className='about__banner' />
       <p className='about__text'>
-        <span>Hello</span>, I am a developer with wicked design skills under my
-        belt. I have previous experience in management, infrastructure and many
-        other technical aspects. While working through those years I always kept
-        the passion for art, design and coding as a hobby. Image and perception
-        are top priority and should be treated as such.
+        <span>Hello</span>, Throughout my career I have developed an expertise
+        in adapting to solve many different technical problems. The approach
+        always being what is our next challenge and how do we master it. We will
+        make some mistakes along the way and in those moments we will learn and
+        avoid further problems. I believe that understanding is one of the
+        pillars of what makes a great leader. I love art, videogames, Code,
+        making greact interactions and much more.
       </p>
     </div>
     <img src={Me} alt='Luigi' className='about__me' />

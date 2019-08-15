@@ -26,7 +26,7 @@ const Navigation = (props) => {
 
   return (
     <Swiper {...params}>
-      {props.projects.map((project, i) => <span><ProjectCard card={project}>{props.title}</ProjectCard></span>)}
+      {props.projects.map((project, i) => <span key={i}><ProjectCard card={project}>{props.title}</ProjectCard></span>)}
     </Swiper>
   );
 };

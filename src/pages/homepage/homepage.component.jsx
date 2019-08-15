@@ -13,17 +13,26 @@ class HomePage extends React.Component{
   this.state={
     projects:[
     {
+      image:'/project1.jpg',
       title:'Card 1',
       text:'card1 text goes here'
     },
     {
+      image:'',
       title:'Card 2',
       text:'card2 text goes here'
     },
     {
+      image:'',
       title:'Card 3',
       text:'card3 text goes here'
-    }]
+    },
+    {
+      image:'',
+      title:'Card 4',
+      text:'card4 text goes here'
+    }
+  ]
 
     
   }

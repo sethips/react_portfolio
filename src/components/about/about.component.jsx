@@ -10,7 +10,7 @@ const About = () => (
       <img src={Luigi} alt='Luigi Castro' className='about__banner' />
       <p className='about__text'>
         <span>Hello</span>, Throughout my career I have developed an expertise
-        in adapting to solve many different technical problems. The approach
+        in solving technical and . The approach
         always being what is our next challenge and how do we master it. We will
         make some mistakes along the way and in those moments we will learn and
         avoid further problems. I believe that understanding is one of the

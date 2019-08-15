@@ -1,23 +1,23 @@
 .project-card{
-    background-color:red;
     height:100%;
     width:100%;
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-basis: 100%;
     flex-direction: column;
     color:white;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center; 
 }
 
+
 .project-contents{
-    height:50%;
-    width:50%;
-    opacity: .8;
-    background-color: black;
+    margin:0 auto;
+    height:80%;
+    width:80%;
+    background-color: rgb(235, 99, 9);
     border-radius: 15px;
     padding:15px;
 }

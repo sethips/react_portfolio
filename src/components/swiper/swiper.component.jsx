@@ -19,14 +19,16 @@ const Navigation = (props) => {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
-      dynamicBullets: false
+      dynamicBullets: true
     },
     containerClass: 'customized-swiper-container' // Replace swiper-container with customized-swiper-container
   };
 
+  const projectArray = props.projects.map((project, i) => <span key={i}><ProjectCard card={project}>{props.title}</ProjectCard></span>);
+
   return (
     <Swiper {...params}>
-      {props.projects.map((project, i) => <span key={i}><ProjectCard card={project}>{props.title}</ProjectCard></span>)}
+      {projectArray}
     </Swiper>
   );
 };

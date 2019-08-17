@@ -1,8 +1,5 @@
 import React from 'react';
 import Swiper from 'react-id-swiper';
-import SlidelList from './projects-list/projects-list.component'
-
-
 import 'react-id-swiper/lib/styles/scss/swiper.scss';
 import './react-swiper.styles.scss'
 
@@ -23,8 +20,9 @@ const SwiperRC = (props) => {
 
   }
   return (
-    <Swiper {...params} {...props}>
-      <SlidelList {...props}></SlidelList>
+    <Swiper {...params}>
+    <span>1</span>
+    <span>2</span>
     </Swiper>
   )
 };
